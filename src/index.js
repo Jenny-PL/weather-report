@@ -130,6 +130,7 @@ const registerEventHandlers = (event) => {
 };
 
 document.addEventListener('DOMContentLoaded', registerEventHandlers);
+document.addEventListener('DOMContentLoaded', defaultLandscape);
 
 // Example to re-assign the color:
 // document.getElementById("p2").style.color = "blue";
