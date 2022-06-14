@@ -1,3 +1,6 @@
+import 'regenerator-runtime/runtime';
+import axios from 'axios';
+
 //BackgroundColor and landscape will change based on temp ranges:
 // 95+	Red
 // 80-95	Orange
