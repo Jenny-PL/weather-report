@@ -75,6 +75,7 @@ const changeCity = (event) => {
 const ResetCity = () => {
   let cityInput = document.querySelector('#cityToSearch');
   cityInput.value = '';
+  defaultLandscape();
 };
 
 // Notes to self: Need to:
